@@ -25,7 +25,7 @@ const user3 : User={
 
 let arr:User[] = [user1,user2,user3];
 
-function mySort(arr:User[],q:string):User[]{
+function mySort(arr:User[],q:keyof User):User[]{
     const len = arr.length;
     for(let i=0;i<len;i++){
         for(let j=i+1;j<len;j++){
@@ -38,6 +38,6 @@ function mySort(arr:User[],q:string):User[]{
     }
     return arr
 }
-let out = mySort(arr,"name");
+let out = mySort(arr,"age");
 console.log(out);
 

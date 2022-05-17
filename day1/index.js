@@ -30,5 +30,5 @@ function mySort(arr, q) {
     }
     return arr;
 }
-var out = mySort(arr, "name");
+var out = mySort(arr, "age");
 console.log(out);
