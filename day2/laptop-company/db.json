@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "modal": "Acer-12",
+      "make_year": "2022-05-10",
+      "OS": "Windows",
+      "screen_height": "1000px",
+      "screen_width": "790px",
+      "price": "1222",
+      "id": 1
+    },
+    {
+      "modal": "Dell-127",
+      "make_year": "2022-05-13",
+      "OS": "Windows",
+      "screen_height": "500px",
+      "screen_width": "230px",
+      "price": "560",
+      "id": 2
+    },
+    {
+      "modal": "HP - 66A",
+      "make_year": "2022-05-03",
+      "OS": "Ubuntu",
+      "screen_height": "1000px",
+      "screen_width": "1000px",
+      "price": "5600",
+      "id": 3
+    },
+    {
+      "modal": "ASUS",
+      "make_year": "2022-05-03",
+      "OS": "LINUX",
+      "screen_height": "1000px",
+      "screen_width": "1000px",
+      "price": "100",
+      "id": 4
+    },
+    {
+      "modal": "ASUS",
+      "make_year": "2022-05-03",
+      "OS": "LINUX",
+      "screen_height": "1000px",
+      "screen_width": "1000px",
+      "price": "100",
+      "id": 5
+    },
+    {
+      "modal": "Apple",
+      "make_year": "2022-05-12",
+      "OS": "IOS",
+      "screen_height": "1440px",
+      "screen_width": "1000px",
+      "price": "100000",
+      "id": 6
+    },
+    {
+      "modal": "babel",
+      "make_year": "2022-05-12",
+      "OS": "Windows",
+      "screen_height": "790px",
+      "screen_width": "1000px",
+      "price": "123456",
+      "id": 7
+    }
+  ]
+}
