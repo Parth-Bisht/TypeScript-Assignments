@@ -25,7 +25,7 @@ const user3 : User={
 
 let arr:User[] = [user1,user2,user3];
 
-function mySort(arr:User[],q:keyof User):User[]{
+function mySort<T>(arr:T[],q:keyof User){
     const len = arr.length;
     for(let i=0;i<len;i++){
         for(let j=i+1;j<len;j++){

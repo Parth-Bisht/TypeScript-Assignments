@@ -71,6 +71,15 @@
       "screen_width": "790px",
       "price": "789",
       "id": 8
+    },
+    {
+      "modal": "Dell-121",
+      "make_year": "2022-05-20",
+      "OS": "Windows",
+      "screen_height": "790px",
+      "screen_width": "790px",
+      "price": "789",
+      "id": 9
     }
   ]
 }
