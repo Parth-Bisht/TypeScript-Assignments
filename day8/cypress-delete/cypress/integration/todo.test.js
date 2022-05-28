@@ -45,5 +45,6 @@ describe("testing todo application",function(){
         cy.wait("@todoReq");
 
         cy.get(".delete-todo").click();
+        cy.get(".todo-list .items").should("have.length",0)
     })
 })
