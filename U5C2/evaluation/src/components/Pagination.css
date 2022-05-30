@@ -1,0 +1,10 @@
+.box1{
+    border: 1px solid red;
+    cursor: pointer;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+.selected{
+    border: 1px solid blue;
+}

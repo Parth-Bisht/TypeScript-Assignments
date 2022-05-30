@@ -1,0 +1,36 @@
+.box{
+    border:none;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.sm{
+    width: 20%;
+}
+.md{
+    width: 40%;
+}
+.lg{
+    width: 70%;
+}
+.xl{
+    width: 100%;
+}
+
+.filled:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+.filled{
+    background-color: rgb(174, 175, 188);
+}
+.outline:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+.flushed:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+}
