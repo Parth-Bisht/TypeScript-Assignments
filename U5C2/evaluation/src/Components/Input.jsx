@@ -1,13 +1,17 @@
-import React from 'react';
-import './InputBox.css'
+import './all.css';
 
-const Input = ({type,size,variant,rightLogo,onClick}) => {
-  return (
-    <div className="inputContainer">
-      <input type={type} className={`box ${size || "md"} ${variant || "outline"}`} />
-      <button onClick={onClick}>{rightLogo}</button>
+export const Input = ({
+  type,
+  size,
+  variant,
+  rightLogo,
+  rightLogoOnClick,
+  onChange,
+}) => {
+  return (   
+      <div data-testid="input-cont" className="inputContainer">
+      <input data-testid="input-box" type={type} className={`input box ${size || "md"} ${variant || "outline"}`} />
+      <button data-testid="eye-btn" onClick={rightLogoOnClick}>{rightLogo}</button>
     </div>
-  )
-}
-
-export default Input
+  );
+};
