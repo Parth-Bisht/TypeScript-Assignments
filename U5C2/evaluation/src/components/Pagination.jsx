@@ -5,7 +5,7 @@ const Pagination = ({ total, selected }) => {
   const [select,setSelect] = useState(selected)
   const pages = new Array(total).fill(0);
   return (
-    <div style={{ display: "flex" }}>
+    <div className="pageContainer" style={{ display: "flex" }}>
       <div onClick={()=>setSelect(select-1)} className="box1">
         Prev
       </div>
